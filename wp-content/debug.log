@@ -1,0 +1,139 @@
+[11-Jun-2019 02:53:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'SuggestedPosts' does not have a method 'plugin_activiation' in /var/www/html/wp-includes/class-wp-hook.php on line 286
+[11-Jun-2019 02:57:50 UTC] PHP Deprecated:  Non-static method SuggestedPosts::create_tag_table() should not be called statically in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 27
+[11-Jun-2019 02:57:50 UTC] PHP Warning:  Use of undefined constant TAG_TABLE - assumed 'TAG_TABLE' (this will throw an Error in a future version of PHP) in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 71
+[11-Jun-2019 03:03:22 UTC] PHP Notice:  Undefined variable: wpdb in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 88
+[11-Jun-2019 03:03:22 UTC] PHP Notice:  Trying to get property 'prefix' of non-object in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 88
+[11-Jun-2019 03:03:22 UTC] PHP Notice:  Undefined variable: wpdb in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 89
+[11-Jun-2019 03:03:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:89
+Stack trace:
+#0 /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php(36): SuggestedPosts::drop_tag_table()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): SuggestedPosts::plugin_deactivation(false)
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/includes/plugin.php(792): do_action('deactivate_sugg...', false)
+#5 /var/www/html/wp-admin/plugins.php(192): deactivate_plugins('suggested-posts...', false, false)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 89
+[11-Jun-2019 03:05:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(55) not null,
+        PRIMARY KEY  (id)
+        ) DEFAULT CHARACTER SET ' at line 4 for query CREATE TABLE wp_supo_tags (
+        id mediumint(9) NOT NULL AUTO_INCREMENT,
+        post_id bigint(20) not null,
+        varchar(55) not null,
+        PRIMARY KEY  (id)
+        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_suggested-posts/suggested-posts.php'), WP_Hook->do_action, WP_Hook->apply_filters, SuggestedPosts::plugin_activation, SuggestedPosts::create_tag_table, dbDelta
+[11-Jun-2019 03:07:14 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(55) not null,
+        PRIMARY KEY  (id)
+        ) DEFAULT CHARACTER SET ' at line 4 for query CREATE TABLE wp_supo_tags (
+        id mediumint(9) NOT NULL AUTO_INCREMENT,
+        post_id bigint(20) not null,
+        varchar(55) not null,
+        PRIMARY KEY  (id)
+        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_suggested-posts/suggested-posts.php'), WP_Hook->do_action, WP_Hook->apply_filters, SuggestedPosts::plugin_activation, SuggestedPosts::create_tag_table, dbDelta
+[11-Jun-2019 03:07:46 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(55) not null,
+        PRIMARY KEY  (id)
+        ) DEFAULT CHARACTER SET ' at line 4 for query CREATE TABLE wp_supo_tags (
+        id mediumint(9) NOT NULL AUTO_INCREMENT,
+        post_id bigint(20) not null,
+        varchar(55) not null,
+        PRIMARY KEY  (id)
+        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_suggested-posts/suggested-posts.php'), WP_Hook->do_action, WP_Hook->apply_filters, SuggestedPosts::plugin_activation, SuggestedPosts::create_tag_table, dbDelta
+[11-Jun-2019 03:18:36 UTC] PHP Notice:  Undefined variable: wpdb in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 73
+[11-Jun-2019 03:18:36 UTC] PHP Notice:  Trying to get property 'prefix' of non-object in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 73
+[11-Jun-2019 03:18:36 UTC] PHP Notice:  Undefined variable: wpdb in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 75
+[11-Jun-2019 03:18:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_charset_collate() on null in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:75
+Stack trace:
+#0 /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php(28): SuggestedPosts::create_tag_table()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): SuggestedPosts::plugin_activation(false)
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/includes/plugin.php(672): do_action('activate_sugges...', false)
+#5 /var/www/html/wp-admin/plugins.php(44): activate_plugin('suggested-posts...', 'http://localhos...', false)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 75
+[11-Jun-2019 03:18:38 UTC] PHP Notice:  Undefined variable: wpdb in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 73
+[11-Jun-2019 03:18:38 UTC] PHP Notice:  Undefined variable: wpdb in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 73
+[11-Jun-2019 03:18:38 UTC] PHP Notice:  Trying to get property 'prefix' of non-object in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 73
+[11-Jun-2019 03:18:38 UTC] PHP Notice:  Trying to get property 'prefix' of non-object in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 73
+[11-Jun-2019 03:18:38 UTC] PHP Notice:  Undefined variable: wpdb in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 75
+[11-Jun-2019 03:18:38 UTC] PHP Notice:  Undefined variable: wpdb in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 75
+[11-Jun-2019 03:18:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_charset_collate() on null in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:75
+Stack trace:
+#0 /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php(28): SuggestedPosts::create_tag_table()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): SuggestedPosts::plugin_activation('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/plugins.php(177): do_action('activate_sugges...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 75
+[11-Jun-2019 03:18:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_charset_collate() on null in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:75
+Stack trace:
+#0 /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php(28): SuggestedPosts::create_tag_table()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): SuggestedPosts::plugin_activation('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/plugins.php(177): do_action('activate_sugges...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 75
+[11-Jun-2019 03:19:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function maybe_create_table() in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:86
+Stack trace:
+#0 /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php(28): SuggestedPosts::create_tag_table()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): SuggestedPosts::plugin_activation(false)
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/includes/plugin.php(672): do_action('activate_sugges...', false)
+#5 /var/www/html/wp-admin/plugins.php(44): activate_plugin('suggested-posts...', 'http://localhos...', false)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 86
+[11-Jun-2019 03:19:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function maybe_create_table() in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:86
+Stack trace:
+#0 /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php(28): SuggestedPosts::create_tag_table()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): SuggestedPosts::plugin_activation('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/plugins.php(177): do_action('activate_sugges...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 86
+[11-Jun-2019 03:19:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function maybe_create_table() in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:86
+Stack trace:
+#0 /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php(28): SuggestedPosts::create_tag_table()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): SuggestedPosts::plugin_activation('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/plugins.php(177): do_action('activate_sugges...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 86
+[11-Jun-2019 04:23:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'SuggestedPostsAdmin' does not have a method 'init' in /var/www/html/wp-includes/class-wp-hook.php on line 286
+[11-Jun-2019 04:24:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'SuggestedPostsAdmin' does not have a method 'init' in /var/www/html/wp-includes/class-wp-hook.php on line 286
+[11-Jun-2019 04:26:51 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'SuggestedPostsAdmin' does not have a method 'init' in /var/www/html/wp-includes/class-wp-hook.php on line 286
+[11-Jun-2019 04:28:52 UTC] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /var/www/html/wp-content/plugins/suggested-posts/suggestedPostsAdmin.php on line 6
+[11-Jun-2019 04:29:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_submenu_page() in /var/www/html/wp-content/plugins/suggested-posts/suggestedPostsAdmin.php:15
+Stack trace:
+#0 /var/www/html/wp-content/plugins/suggested-posts/suggestedPostsAdmin.php(8): SuggestedPostsAdmin::init_hooks()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): SuggestedPostsAdmin::init('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(525): do_action('init')
+#5 /var/www/html/wp-config.php(93): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-content/plugins/suggested-posts/suggestedPostsAdmin.php on line 15
+[11-Jun-2019 04:33:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_options_page(), 0 passed in /var/www/html/wp-content/plugins/suggested-posts/suggestedPostsAdmin.php on line 20 and at least 4 expected in /var/www/html/wp-admin/includes/plugin.php:1419
+Stack trace:
+#0 /var/www/html/wp-content/plugins/suggested-posts/suggestedPostsAdmin.php(20): add_options_page()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): SuggestedPostsAdmin::addMenu('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/includes/menu.php(154): do_action('admin_menu', '')
+#5 /var/www/html/wp-admin/menu.php(309): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/admin.php(152): require('/var/www/html/w...')
+#7 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-admin/includes/plugin.php on line 1419
+[11-Jun-2019 04:51:15 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/suggested-posts/uggestedPostsAdmin.php): failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php on line 36
+[11-Jun-2019 04:51:15 UTC] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/wp-content/plugins/suggested-posts/uggestedPostsAdmin.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php on line 36
+[11-Jun-2019 04:52:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPostsAdmin.php:19) in /var/www/html/wp-admin/includes/misc.php on line 1196
+[11-Jun-2019 04:52:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPostsAdmin.php:19) in /var/www/html/wp-admin/includes/misc.php on line 1196
+[11-Jun-2019 04:56:12 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'displayPage' not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php on line 286

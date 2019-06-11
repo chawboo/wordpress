@@ -25,3 +25,7 @@ services:
       MYSQL_PASSWORD: wordpress1
       MYSQL_RANDOM_ROOT_PASSWORD: 'wordpressRoot'
     container_name: wp_db
+    ports:
+      - 33060:3306
+    volumes:
+      - ./db-data:/var/lib/mysql
