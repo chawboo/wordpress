@@ -1,0 +1,6 @@
+#stupid mac stuff
+.DS_*
+
+db-data/*
+
+wp-content/debug.log

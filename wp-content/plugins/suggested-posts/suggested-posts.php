@@ -5,6 +5,7 @@ Description: Displays suggested posts based on which posts have been viewed
 Version: 0.1
 Author: Matt Coburn
 License: GPLv2 or later
+Text Domain: supo
 */
 
 #activate plugin *DONE*

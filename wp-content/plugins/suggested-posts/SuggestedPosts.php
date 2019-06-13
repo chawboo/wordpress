@@ -93,4 +93,21 @@ class SuggestedPosts {
         $wpdb->query("DROP TABLE IF EXISTS $table_name");
     }
 
+    public static function view( $view, array $data = array() ) {
+        // extract($data);
+        foreach( $data as $key => $value ) {
+            $$key = $value;
+        }
+		
+		load_plugin_textdomain( 'supo' );
+
+		$file = SUGGESTED_POST__PLUGIN_DIR . 'views/'. $view . '.php';
+
+		include( $file );
+    }
+    
+    public function supo_trim( $string, $remove_empty = true ) {
+        $val = trim( $string );
+        return $val ?? false;
+    }
 }

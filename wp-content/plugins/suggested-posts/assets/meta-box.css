@@ -1,0 +1,24 @@
+#supo_meta{
+    overflow: hidden;
+    padding-bottom: 1em;
+}
+ 
+#supo_meta p{
+    clear: both;
+}
+ 
+.supo-row-title{
+    display: block;
+    float: left;
+    width: 200px;
+}
+ 
+.supo-row-content{
+    float: left;
+    padding-bottom: 1em;
+}
+ 
+.supo-row-content label{
+    display: block;
+    line-height: 1.75em;
+}

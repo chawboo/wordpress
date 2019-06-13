@@ -137,3 +137,491 @@ Stack trace:
 [11-Jun-2019 04:52:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPostsAdmin.php:19) in /var/www/html/wp-admin/includes/misc.php on line 1196
 [11-Jun-2019 04:52:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPostsAdmin.php:19) in /var/www/html/wp-admin/includes/misc.php on line 1196
 [11-Jun-2019 04:56:12 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'displayPage' not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php on line 286
+[12-Jun-2019 01:47:56 UTC] PHP Notice:  Undefined variable: name in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 101
+[12-Jun-2019 01:47:56 UTC] PHP Warning:  include(/var/www/html/wp-content/plugins/suggested-posts/views/.php): failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 103
+[12-Jun-2019 01:47:56 UTC] PHP Warning:  include(): Failed opening '/var/www/html/wp-content/plugins/suggested-posts/views/.php' for inclusion (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 103
+[12-Jun-2019 03:34:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPostsAdmin.php on line 17
+[12-Jun-2019 03:34:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPostsAdmin.php on line 17
+[13-Jun-2019 00:45:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 4
+[13-Jun-2019 00:45:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 4
+[13-Jun-2019 00:45:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 4
+[13-Jun-2019 00:45:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 4
+[13-Jun-2019 00:45:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 4
+[13-Jun-2019 00:45:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 4
+[13-Jun-2019 00:45:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 4
+[13-Jun-2019 00:45:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 4
+[13-Jun-2019 00:45:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 4
+[13-Jun-2019 00:45:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 4
+[13-Jun-2019 01:16:02 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'supo_meta_save' not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php on line 288
+[13-Jun-2019 01:23:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'supo_meta_save' not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php on line 288
+[13-Jun-2019 01:26:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'supo_meta_save' not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php on line 288
+[13-Jun-2019 01:28:04 UTC] wassup!?
+[13-Jun-2019 02:18:53 UTC] Array
+(
+    [_wpnonce] => 410f8fa6b1
+    [_wp_http_referer] => /wp-admin/post.php?post=5&action=edit
+    [user_ID] => 1
+    [action] => editpost
+    [originalaction] => editpost
+    [post_type] => post
+    [original_post_status] => draft
+    [referredby] => 
+    [post_ID] => 5
+    [meta-box-order-nonce] => effce904e5
+    [closedpostboxesnonce] => a8a7b4b996
+    [samplepermalinknonce] => 340d695f86
+    [supo_nonce] => 8031441433
+    [meta-checkbox-humor] => 1
+    [meta-checkbox-work] => 1
+    [meta-checkbox-holiday] => 1
+    [meta-checkbox-cats] => 1
+    [meta-checkbox-dogs] => 1
+    [comment_status] => open
+    [ping_status] => open
+    [post_author] => 1
+    [post_mime_type] => 
+    [ID] => 5
+    [post_status] => draft
+)
+
+[13-Jun-2019 02:19:11 UTC] Array
+(
+    [_wpnonce] => 410f8fa6b1
+    [_wp_http_referer] => /wp-admin/post.php?post=5&action=edit
+    [user_ID] => 1
+    [action] => editpost
+    [originalaction] => editpost
+    [post_type] => post
+    [original_post_status] => draft
+    [referredby] => 
+    [post_ID] => 5
+    [meta-box-order-nonce] => effce904e5
+    [closedpostboxesnonce] => a8a7b4b996
+    [samplepermalinknonce] => 340d695f86
+    [supo_nonce] => 8031441433
+    [meta-checkbox-humor] => humor
+    [meta-checkbox-work] => work
+    [meta-checkbox-holiday] => holiday
+    [meta-checkbox-cats] => cats
+    [meta-checkbox-dogs] => dogs
+    [comment_status] => open
+    [ping_status] => open
+    [post_author] => 1
+    [post_mime_type] => 
+    [ID] => 5
+    [post_status] => draft
+)
+
+[13-Jun-2019 02:19:59 UTC] Array
+(
+    [_wpnonce] => 410f8fa6b1
+    [_wp_http_referer] => /wp-admin/post.php?post=5&action=edit
+    [user_ID] => 1
+    [action] => editpost
+    [originalaction] => editpost
+    [post_type] => post
+    [original_post_status] => draft
+    [referredby] => 
+    [post_ID] => 5
+    [meta-box-order-nonce] => effce904e5
+    [closedpostboxesnonce] => a8a7b4b996
+    [samplepermalinknonce] => 340d695f86
+    [supo_nonce] => 8031441433
+    [meta-checkbox] => Array
+        (
+            [0] => humor
+            [1] => work
+            [2] => holiday
+            [3] => cats
+            [4] => dogs
+        )
+
+    [comment_status] => open
+    [ping_status] => open
+    [post_author] => 1
+    [post_mime_type] => 
+    [ID] => 5
+    [post_status] => draft
+)
+
+[13-Jun-2019 02:20:21 UTC] Array
+(
+    [_wpnonce] => 410f8fa6b1
+    [_wp_http_referer] => /wp-admin/post.php?post=5&action=edit
+    [user_ID] => 1
+    [action] => editpost
+    [originalaction] => editpost
+    [post_type] => post
+    [original_post_status] => draft
+    [referredby] => 
+    [post_ID] => 5
+    [meta-box-order-nonce] => effce904e5
+    [closedpostboxesnonce] => a8a7b4b996
+    [samplepermalinknonce] => 340d695f86
+    [supo_nonce] => 8031441433
+    [meta-checkbox] => Array
+        (
+            [0] => humor
+            [1] => work
+            [2] => holiday
+        )
+
+    [comment_status] => open
+    [ping_status] => open
+    [post_author] => 1
+    [post_mime_type] => 
+    [ID] => 5
+    [post_status] => draft
+)
+
+[13-Jun-2019 02:22:40 UTC] Array
+(
+    [_wpnonce] => 410f8fa6b1
+    [_wp_http_referer] => /wp-admin/post.php?post=5&action=edit
+    [user_ID] => 1
+    [action] => editpost
+    [originalaction] => editpost
+    [post_type] => post
+    [original_post_status] => draft
+    [referredby] => 
+    [post_ID] => 5
+    [meta-box-order-nonce] => effce904e5
+    [closedpostboxesnonce] => a8a7b4b996
+    [samplepermalinknonce] => 340d695f86
+    [supo_nonce] => 8031441433
+    [supo-meta-checkbox] => Array
+        (
+            [0] => humor
+            [1] => work
+            [2] => holiday
+        )
+
+    [comment_status] => open
+    [ping_status] => open
+    [post_author] => 1
+    [post_mime_type] => 
+    [ID] => 5
+    [post_status] => draft
+)
+
+[13-Jun-2019 02:26:02 UTC] Array
+(
+    [_wpnonce] => 410f8fa6b1
+    [_wp_http_referer] => /wp-admin/post.php?post=5&action=edit
+    [user_ID] => 1
+    [action] => editpost
+    [originalaction] => editpost
+    [post_type] => post
+    [original_post_status] => draft
+    [referredby] => 
+    [post_ID] => 5
+    [meta-box-order-nonce] => effce904e5
+    [closedpostboxesnonce] => a8a7b4b996
+    [samplepermalinknonce] => 340d695f86
+    [supo_nonce] => 8031441433
+    [supo-meta-checkbox] => Array
+        (
+            [0] => humor
+            [1] => work
+            [2] => holiday
+        )
+
+    [comment_status] => open
+    [ping_status] => open
+    [post_author] => 1
+    [post_mime_type] => 
+    [ID] => 5
+    [post_status] => draft
+)
+
+[13-Jun-2019 02:29:58 UTC] PHP Notice:  Only variables should be passed by reference in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPostsAdmin.php on line 58
+[13-Jun-2019 02:29:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 8
+[13-Jun-2019 02:30:58 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 8
+[13-Jun-2019 02:31:38 UTC] Array
+(
+    [0] => Array
+        (
+            [0] => humor
+            [1] => work
+            [2] => holiday
+        )
+
+)
+
+[13-Jun-2019 02:34:10 UTC] Array
+(
+    [0] => Array
+        (
+            [0] => humor
+            [1] => work
+            [2] => holiday
+        )
+
+)
+
+[13-Jun-2019 02:35:57 UTC] Array
+(
+    [0] => Array
+        (
+            [0] => humor
+            [1] => work
+            [2] => holiday
+        )
+
+)
+
+[13-Jun-2019 02:37:43 UTC] Array
+(
+    [0] => humor
+    [1] => work
+    [2] => holiday
+)
+
+[13-Jun-2019 02:38:02 UTC] Array
+(
+    [_wpnonce] => 410f8fa6b1
+    [_wp_http_referer] => /wp-admin/post.php?post=5&action=edit
+    [user_ID] => 1
+    [action] => editpost
+    [originalaction] => editpost
+    [post_type] => post
+    [original_post_status] => draft
+    [referredby] => 
+    [post_ID] => 5
+    [meta-box-order-nonce] => effce904e5
+    [closedpostboxesnonce] => a8a7b4b996
+    [samplepermalinknonce] => 340d695f86
+    [supo_nonce] => 8031441433
+    [supo-meta-checkbox] => Array
+        (
+            [0] => humor
+            [1] => holiday
+            [2] => dogs
+        )
+
+    [comment_status] => open
+    [ping_status] => open
+    [post_author] => 1
+    [post_mime_type] => 
+    [ID] => 5
+    [post_status] => draft
+)
+
+[13-Jun-2019 02:38:03 UTC] Array
+(
+    [0] => humor
+    [1] => holiday
+    [2] => dogs
+)
+
+[13-Jun-2019 02:38:07 UTC] Array
+(
+    [0] => humor
+    [1] => holiday
+    [2] => dogs
+)
+
+[13-Jun-2019 02:40:03 UTC] Array
+(
+    [0] => Array
+        (
+            [0] => humor
+            [1] => holiday
+            [2] => dogs
+        )
+
+)
+
+[13-Jun-2019 02:40:03 UTC] Array
+(
+    [0] => humor
+    [1] => holiday
+    [2] => dogs
+)
+
+[13-Jun-2019 02:43:25 UTC] Array
+(
+    [0] => Array
+        (
+            [0] => humor
+            [1] => holiday
+            [2] => dogs
+        )
+
+)
+
+[13-Jun-2019 02:44:59 UTC] Array
+(
+    [tags] => Array
+        (
+            [0] => humor
+            [1] => work
+            [2] => holiday
+            [3] => cats
+            [4] => dogs
+        )
+
+    [post] => WP_Post Object
+        (
+            [ID] => 5
+            [post_author] => 1
+            [post_date] => 2019-06-13 02:38:02
+            [post_date_gmt] => 0000-00-00 00:00:00
+            [post_content] => <!-- wp:paragraph -->
+<p>Here is another post</p>
+<!-- /wp:paragraph -->
+            [post_title] => Post #2
+            [post_excerpt] => 
+            [post_status] => draft
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => 
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2019-06-13 02:38:02
+            [post_modified_gmt] => 2019-06-13 02:38:02
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://localhost:666/?p=5
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+        )
+
+    [selected_tags] => Array
+        (
+            [0] => Array
+                (
+                    [0] => humor
+                    [1] => holiday
+                    [2] => dogs
+                )
+
+        )
+
+)
+
+[13-Jun-2019 02:44:59 UTC] Array
+(
+    [0] => Array
+        (
+            [0] => humor
+            [1] => holiday
+            [2] => dogs
+        )
+
+)
+
+[13-Jun-2019 02:48:03 UTC] Array
+(
+    [_wpnonce] => 410f8fa6b1
+    [_wp_http_referer] => /wp-admin/post.php?post=5&action=edit
+    [user_ID] => 1
+    [action] => editpost
+    [originalaction] => editpost
+    [post_type] => post
+    [original_post_status] => draft
+    [referredby] => 
+    [post_ID] => 5
+    [meta-box-order-nonce] => effce904e5
+    [closedpostboxesnonce] => a8a7b4b996
+    [samplepermalinknonce] => 340d695f86
+    [supo_nonce] => 8031441433
+    [supo-meta-checkbox] => Array
+        (
+            [0] => humor
+            [1] => holiday
+            [2] => dogs
+        )
+
+    [comment_status] => open
+    [ping_status] => open
+    [post_author] => 1
+    [post_mime_type] => 
+    [ID] => 5
+    [post_status] => draft
+)
+
+[13-Jun-2019 02:49:05 UTC] Array
+(
+    [_wpnonce] => 410f8fa6b1
+    [_wp_http_referer] => /wp-admin/post.php?post=5&action=edit
+    [user_ID] => 1
+    [action] => editpost
+    [originalaction] => editpost
+    [post_type] => post
+    [original_post_status] => draft
+    [referredby] => 
+    [post_ID] => 5
+    [meta-box-order-nonce] => effce904e5
+    [closedpostboxesnonce] => a8a7b4b996
+    [samplepermalinknonce] => 340d695f86
+    [supo_nonce] => 8031441433
+    [supo-meta-checkbox] => Array
+        (
+            [0] => humor
+            [1] => holiday
+            [2] => dogs
+        )
+
+    [comment_status] => open
+    [ping_status] => open
+    [post_author] => 1
+    [post_mime_type] => 
+    [ID] => 5
+    [post_status] => draft
+)
+
+[13-Jun-2019 02:49:05 UTC] PHP Notice:  Undefined index: supo-meta-checkboxes in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPostsAdmin.php on line 79
+[13-Jun-2019 02:49:05 UTC] 
+[13-Jun-2019 02:49:37 UTC] Array
+(
+    [_wpnonce] => 410f8fa6b1
+    [_wp_http_referer] => /wp-admin/post.php?post=5&action=edit
+    [user_ID] => 1
+    [action] => editpost
+    [originalaction] => editpost
+    [post_type] => post
+    [original_post_status] => draft
+    [referredby] => 
+    [post_ID] => 5
+    [meta-box-order-nonce] => effce904e5
+    [closedpostboxesnonce] => a8a7b4b996
+    [samplepermalinknonce] => 340d695f86
+    [supo_nonce] => 8031441433
+    [supo-meta-checkbox] => Array
+        (
+            [0] => humor
+            [1] => holiday
+            [2] => dogs
+        )
+
+    [comment_status] => open
+    [ping_status] => open
+    [post_author] => 1
+    [post_mime_type] => 
+    [ID] => 5
+    [post_status] => draft
+)
+
+[13-Jun-2019 02:49:37 UTC] Array
+(
+    [0] => humor
+    [1] => holiday
+    [2] => dogs
+)
+
+[13-Jun-2019 02:52:39 UTC] Array
+(
+    [0] => Array
+        (
+            [0] => humor
+            [1] => holiday
+            [2] => dogs
+        )
+
+)
+
