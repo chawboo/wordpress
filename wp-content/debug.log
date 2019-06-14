@@ -625,3 +625,128 @@ Stack trace:
 
 )
 
+[14-Jun-2019 00:24:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 9
+[14-Jun-2019 00:24:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 9
+[14-Jun-2019 00:24:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 9
+[14-Jun-2019 00:24:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 9
+[14-Jun-2019 00:24:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 9
+[14-Jun-2019 00:25:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 9
+[14-Jun-2019 00:25:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 9
+[14-Jun-2019 00:25:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 9
+[14-Jun-2019 00:25:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 9
+[14-Jun-2019 00:25:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /var/www/html/wp-content/plugins/suggested-posts/views/meta-box.php on line 9
+[14-Jun-2019 00:52:12 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 128
+[14-Jun-2019 00:52:14 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 128
+[14-Jun-2019 00:52:31 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 128
+[14-Jun-2019 00:52:31 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 128
+[14-Jun-2019 01:01:00 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 127
+[14-Jun-2019 01:01:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:127) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[14-Jun-2019 01:01:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:127) in /var/www/html/wp-includes/rest-api.php on line 587
+[14-Jun-2019 01:01:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:127) in /var/www/html/wp-includes/rest-api.php on line 588
+[14-Jun-2019 01:01:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:127) in /var/www/html/wp-includes/rest-api.php on line 589
+[14-Jun-2019 01:01:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:127) in /var/www/html/wp-includes/rest-api.php on line 590
+[14-Jun-2019 01:01:01 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 127
+[14-Jun-2019 01:01:05 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 127
+[14-Jun-2019 01:01:43 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 127
+[14-Jun-2019 01:02:01 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 127
+[14-Jun-2019 01:02:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:127) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[14-Jun-2019 01:02:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:127) in /var/www/html/wp-includes/rest-api.php on line 587
+[14-Jun-2019 01:02:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:127) in /var/www/html/wp-includes/rest-api.php on line 588
+[14-Jun-2019 01:02:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:127) in /var/www/html/wp-includes/rest-api.php on line 589
+[14-Jun-2019 01:02:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:127) in /var/www/html/wp-includes/rest-api.php on line 590
+[14-Jun-2019 01:41:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'SuggestedPosts' does not have a method 'init' in /var/www/html/wp-includes/class-wp-hook.php on line 286
+[14-Jun-2019 01:41:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'SuggestedPosts' does not have a method 'init' in /var/www/html/wp-includes/class-wp-hook.php on line 286
+[14-Jun-2019 01:41:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[14-Jun-2019 01:41:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 587
+[14-Jun-2019 01:41:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 588
+[14-Jun-2019 01:41:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 589
+[14-Jun-2019 01:41:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 590
+[14-Jun-2019 01:41:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'SuggestedPosts' does not have a method 'init' in /var/www/html/wp-includes/class-wp-hook.php on line 286
+[14-Jun-2019 01:41:30 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPostsAdmin.php on line 78
+[14-Jun-2019 01:41:30 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'SuggestedPosts' does not have a method 'init' in /var/www/html/wp-includes/class-wp-hook.php on line 286
+[14-Jun-2019 01:41:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'SuggestedPosts' does not have a method 'init' in /var/www/html/wp-includes/class-wp-hook.php on line 286
+[14-Jun-2019 01:41:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[14-Jun-2019 01:41:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 587
+[14-Jun-2019 01:41:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 588
+[14-Jun-2019 01:41:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 589
+[14-Jun-2019 01:41:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 590
+[14-Jun-2019 01:41:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'SuggestedPosts' does not have a method 'init' in /var/www/html/wp-includes/class-wp-hook.php on line 286
+[14-Jun-2019 01:41:43 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPostsAdmin.php on line 78
+[14-Jun-2019 01:41:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'SuggestedPosts' does not have a method 'init' in /var/www/html/wp-includes/class-wp-hook.php on line 286
+[14-Jun-2019 01:42:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'SuggestedPosts' does not have a method 'init' in /var/www/html/wp-includes/class-wp-hook.php on line 286
+[14-Jun-2019 01:42:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:43) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[14-Jun-2019 01:42:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:43) in /var/www/html/wp-includes/rest-api.php on line 587
+[14-Jun-2019 01:42:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:43) in /var/www/html/wp-includes/rest-api.php on line 588
+[14-Jun-2019 01:42:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:43) in /var/www/html/wp-includes/rest-api.php on line 589
+[14-Jun-2019 01:42:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:43) in /var/www/html/wp-includes/rest-api.php on line 590
+[14-Jun-2019 01:42:25 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPostsAdmin.php on line 78
+[14-Jun-2019 01:43:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[14-Jun-2019 01:43:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 587
+[14-Jun-2019 01:43:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 588
+[14-Jun-2019 01:43:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 589
+[14-Jun-2019 01:43:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 590
+[14-Jun-2019 01:43:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[14-Jun-2019 01:43:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 587
+[14-Jun-2019 01:43:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 588
+[14-Jun-2019 01:43:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 589
+[14-Jun-2019 01:43:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 590
+[14-Jun-2019 01:43:47 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPostsAdmin.php on line 78
+[14-Jun-2019 01:43:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[14-Jun-2019 01:43:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 587
+[14-Jun-2019 01:43:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 588
+[14-Jun-2019 01:43:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 589
+[14-Jun-2019 01:43:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 590
+[14-Jun-2019 01:43:56 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPostsAdmin.php on line 78
+[14-Jun-2019 01:45:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[14-Jun-2019 01:45:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 587
+[14-Jun-2019 01:45:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 588
+[14-Jun-2019 01:45:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 589
+[14-Jun-2019 01:45:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 590
+[14-Jun-2019 01:45:09 UTC] Array
+(
+    [0] => humor
+    [1] => work
+    [2] => holiday
+)
+
+[14-Jun-2019 01:46:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[14-Jun-2019 01:46:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 587
+[14-Jun-2019 01:46:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 588
+[14-Jun-2019 01:46:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 589
+[14-Jun-2019 01:46:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/suggested-posts.php:44) in /var/www/html/wp-includes/rest-api.php on line 590
+[14-Jun-2019 01:49:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:114) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[14-Jun-2019 01:49:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:114) in /var/www/html/wp-includes/rest-api.php on line 587
+[14-Jun-2019 01:49:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:114) in /var/www/html/wp-includes/rest-api.php on line 588
+[14-Jun-2019 01:49:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:114) in /var/www/html/wp-includes/rest-api.php on line 589
+[14-Jun-2019 01:49:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:114) in /var/www/html/wp-includes/rest-api.php on line 590
+[14-Jun-2019 01:49:02 UTC] Array
+(
+    [0] => humor
+    [1] => work
+    [2] => holiday
+)
+
+[14-Jun-2019 01:50:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:114) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[14-Jun-2019 01:50:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:114) in /var/www/html/wp-includes/rest-api.php on line 587
+[14-Jun-2019 01:50:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:114) in /var/www/html/wp-includes/rest-api.php on line 588
+[14-Jun-2019 01:50:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:114) in /var/www/html/wp-includes/rest-api.php on line 589
+[14-Jun-2019 01:50:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php:114) in /var/www/html/wp-includes/rest-api.php on line 590
+[14-Jun-2019 01:50:34 UTC] PHP Parse error:  syntax error, unexpected '$content' (T_VARIABLE) in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 117
+[14-Jun-2019 01:50:34 UTC] PHP Parse error:  syntax error, unexpected '$content' (T_VARIABLE) in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 117
+[14-Jun-2019 01:55:15 UTC] Array
+(
+    [0] => humor
+    [1] => work
+    [2] => holiday
+)
+
+[14-Jun-2019 02:13:28 UTC] Array
+(
+    [0] => humor
+    [1] => work
+    [2] => holiday
+)
+
+[14-Jun-2019 03:01:06 UTC] PHP Notice:  Trying to get property 'post_id' of non-object in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 119
+[14-Jun-2019 03:01:06 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 for query select * from wp_posts where ID =  made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/twentynineteen/single.php'), get_template_part, locate_template, load_template, require('/themes/twentynineteen/template-parts/content/content-single.php'), the_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, SuggestedPosts::supo_shortcode
+[14-Jun-2019 03:01:06 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/wp-content/plugins/suggested-posts/SuggestedPosts.php on line 123

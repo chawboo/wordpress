@@ -11,11 +11,10 @@ Text Domain: supo
 #activate plugin *DONE*
 #deactivate plugin *DONE*
 #uninstall plugin *DONE*
-#add admin settings to control tags
-#add way to manage tags for posts
-#add hook to run on pageload
+#add admin settings to control tags *DONE*
+#add way to manage tags for posts *DONE*
 #add post visited to cookie
-#add function to get suggested posts
+#add function to get suggested posts (shortcode?)
 
 // Make sure we don't expose any info if called directly
 if ( !function_exists( 'add_action' ) ) {
@@ -38,7 +37,4 @@ if( is_admin() ) {
 	add_action( 'init', array( 'SuggestedPostsAdmin', 'init' ) );
 }
 
-// function supo_shortcode() {
-//     echo "here is your suggested post";
-// }
-// add_shortcode('suggested_post', 'supo_shortcode');
+	add_shortcode( 'suggestedposts', array( 'SuggestedPosts', 'supo_shortcode' ) );

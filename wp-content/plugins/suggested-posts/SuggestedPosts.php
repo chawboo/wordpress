@@ -71,7 +71,7 @@ class SuggestedPosts {
     private static function create_tag_table(){
         global $wpdb;
 
-        $table_name = $wpdb->prefix . self::TAG_TABLE;
+        $table_name = self::get_table_name();
 
         $charset_collate = $wpdb->get_charset_collate();
 
@@ -89,8 +89,7 @@ class SuggestedPosts {
 
     private static function drop_tag_table() {
         global $wpdb;
-        $table_name = $wpdb->prefix . self::TAG_TABLE;
-        $wpdb->query("DROP TABLE IF EXISTS $table_name");
+        $wpdb->query("DROP TABLE IF EXISTS " . self::get_table_name() . ";" );
     }
 
     public static function view( $view, array $data = array() ) {
@@ -105,9 +104,42 @@ class SuggestedPosts {
 
 		include( $file );
     }
+
+    public static function supo_shortcode( ) {
+        global $post, $wpdb;
+        
+        $post_tags = self::get_post_tags( $post->ID );
+        $tag_list = "'" . implode( "', '", $post_tags ) . "'";
+        $post_id_list = $post->ID; //@TODO add the post ids already visited from the cookie
+        $results = $wpdb->get_results( 
+            "select count(post_id) as matches, post_id from wp_supo_tags where tag in ($tag_list) and post_id not in ($post_id_list) group by post_id order by matches desc;",
+            OBJECT
+        );
+        if( !empty( $results ) ) {
+            $result = $results[0];
+            $suggested_post = $wpdb->get_row("select * from {$wpdb->prefix}posts where ID = $result->post_id");
+            
+            $href = get_post_permalink( $suggested_post->ID );
+            $post_link = "<a href='$href'>$suggested_post->post_title</a>";
+            $content = "<div><p>Suggested Post</p>$post_link</div>";
+        } else {
+            $content = "no suggested post";    
+        }
+        return $content;
+    }
     
-    public function supo_trim( $string, $remove_empty = true ) {
-        $val = trim( $string );
-        return $val ?? false;
+    public static function get_table_name() {
+        global $wpdb;
+        return $wpdb->prefix . self::TAG_TABLE;
+    }
+
+    public static function get_post_tags( int $post_id ) {
+        global $wpdb;
+        $selected_tags = array();
+        $results = $wpdb->get_results( "select * from " . SuggestedPosts::get_table_name() . " where post_id = '$post_id'", OBJECT );
+        foreach ( $results as $result ) {
+            $selected_tags[] = $result->tag;
+        }
+        return $selected_tags;
     }
 }

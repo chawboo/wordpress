@@ -57,12 +57,14 @@ class SuggestedPostsAdmin {
         $data = [
             'tags' => get_option(SuggestedPosts::TAG_OPTION),
             'post' => $post,
-            'selected_tags' => get_post_meta( $post->ID , 'supo-meta-checkboxes', true ),
+            'selected_tags' => SuggestedPosts::get_post_tags( $post->ID ),
         ];
         SuggestedPosts::view( 'meta-box', $data );
     }
 
     public static function save_meta_box( $post_id ) {
+        global $wpdb;
+
         // Checks save status
         $is_autosave = wp_is_post_autosave( $post_id );
         $is_revision = wp_is_post_revision( $post_id );
@@ -73,9 +75,20 @@ class SuggestedPostsAdmin {
             return;
         }
      
+        //remove all current tags
+        $wpdb->delete(
+            SuggestedPosts::get_table_name(),
+            array( "post_id" => $post_id),
+            array( '%d' )
+        );
+        
         // Checks for input and sanitizes/saves if needed
         if( isset( $_POST[ 'supo-meta-checkbox' ] ) ) {
-            update_post_meta( $post_id, 'supo-meta-checkboxes', $_POST[ 'supo-meta-checkbox' ] );
+            $tags = get_option(SuggestedPosts::TAG_OPTION);
+            foreach ($_POST['supo-meta-checkbox'] as $tag) {
+                if( in_array( $tag, $tags ) )
+                    $wpdb->insert( SuggestedPosts::get_table_name(), array( 'post_id' => $post_id, 'tag' => $tag), array( '%d', '%s' ) );
+            }
         }
     }
 
