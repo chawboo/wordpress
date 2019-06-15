@@ -32,9 +32,10 @@ register_uninstall_hook(__FILE__, array( 'SuggestedPosts', 'plugin_uninstall'));
 
 require_once( SUGGESTED_POST__PLUGIN_DIR . 'SuggestedPosts.php' );
 
+add_shortcode( 'suggestedposts', array( 'SuggestedPosts', 'supo_shortcode' ) );
+add_action('wp', array( 'SuggestedPosts', 'supo_track_page' ), 11 );
+
 if( is_admin() ) {
     require_once( SUGGESTED_POST__PLUGIN_DIR . 'SuggestedPostsAdmin.php' );
 	add_action( 'init', array( 'SuggestedPostsAdmin', 'init' ) );
 }
-
-	add_shortcode( 'suggestedposts', array( 'SuggestedPosts', 'supo_shortcode' ) );

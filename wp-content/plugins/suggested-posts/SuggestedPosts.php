@@ -110,7 +110,11 @@ class SuggestedPosts {
         
         $post_tags = self::get_post_tags( $post->ID );
         $tag_list = "'" . implode( "', '", $post_tags ) . "'";
-        $post_id_list = $post->ID; //@TODO add the post ids already visited from the cookie
+        $excludes = array(1, $post->ID);//always exclude the homepage and current post
+        if( isset( $_COOKIE['supo_pages'] ) ) {
+            $excludes = array_merge( $excludes, json_decode( $_COOKIE['supo_pages'], true ) );
+        }
+        $post_id_list = implode( ', ', $excludes );
         $results = $wpdb->get_results( 
             "select count(post_id) as matches, post_id from wp_supo_tags where tag in ($tag_list) and post_id not in ($post_id_list) group by post_id order by matches desc;",
             OBJECT
@@ -141,5 +145,19 @@ class SuggestedPosts {
             $selected_tags[] = $result->tag;
         }
         return $selected_tags;
+    }
+
+    public static function supo_track_page() {
+        $post_id = get_the_ID();
+        if ( !$post_id || is_admin()) {
+           return;
+        }
+        $data = array();
+        if(isset( $_COOKIE['supo_pages'] ) ) {
+            $data = json_decode($_COOKIE['supo_pages'],true);
+        }
+        if ( !in_array( $post_id, $data ) )
+            $data[] = $post_id;
+        setcookie('supo_pages', json_encode($data), time()+3600);        
     }
 }
