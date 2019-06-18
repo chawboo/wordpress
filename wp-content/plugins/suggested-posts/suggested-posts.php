@@ -8,14 +8,6 @@ License: GPLv2 or later
 Text Domain: supo
 */
 
-#activate plugin *DONE*
-#deactivate plugin *DONE*
-#uninstall plugin *DONE*
-#add admin settings to control tags *DONE*
-#add way to manage tags for posts *DONE*
-#add post visited to cookie
-#add function to get suggested posts (shortcode?)
-
 // Make sure we don't expose any info if called directly
 if ( !function_exists( 'add_action' ) ) {
 	echo 'Hi there!  I\'m just a plugin, not much I can do when called directly.';

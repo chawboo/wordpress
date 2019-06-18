@@ -15,7 +15,7 @@ class SuggestedPostsAdmin {
         add_action( 'admin_menu', array( 'SuggestedPostsAdmin', 'admin_menu' ) );
         add_action( 'add_meta_boxes', array( 'SuggestedPostsAdmin', 'create_meta_box' ) );
         add_action( 'save_post', array( 'SuggestedPostsAdmin', 'save_meta_box' ) );
-        // add_action( 'admin_print_styles', array('SuggestedPostsAdmin', 'supo_admin_styles') );
+        add_action( 'admin_print_styles', array('SuggestedPostsAdmin', 'supo_admin_styles') );
     }
 
     public static function admin_menu() {
@@ -45,7 +45,7 @@ class SuggestedPostsAdmin {
 
     public static function create_meta_box() {
         add_meta_box(
-            'supo_box',
+            'supo_meta',
             __( 'Suggested Posts', 'supo' ),
             array( 'SuggestedPostsAdmin', 'supo_meta_callback' ),
             'post',

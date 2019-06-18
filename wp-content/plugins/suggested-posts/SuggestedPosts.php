@@ -76,14 +76,13 @@ class SuggestedPosts {
         $charset_collate = $wpdb->get_charset_collate();
 
         $sql = "CREATE TABLE $table_name (
-        id mediumint(9) NOT NULL AUTO_INCREMENT,
-        post_id bigint(20) not null,
-        tag varchar(55) not null,
-        PRIMARY KEY  (id)
-        ) $charset_collate;";
+            id mediumint(9) NOT NULL AUTO_INCREMENT,
+            post_id bigint(20) not null,
+            tag varchar(55) not null,
+            PRIMARY KEY  (id)
+            ) $charset_collate;";
 
         require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
-        // dbDelta( $sql );
         maybe_create_table($table_name, $sql);
     }
 
@@ -93,7 +92,6 @@ class SuggestedPosts {
     }
 
     public static function view( $view, array $data = array() ) {
-        // extract($data);
         foreach( $data as $key => $value ) {
             $$key = $value;
         }
@@ -112,7 +110,9 @@ class SuggestedPosts {
         $tag_list = "'" . implode( "', '", $post_tags ) . "'";
         $excludes = array(1, $post->ID);//always exclude the homepage and current post
         if( isset( $_COOKIE['supo_pages'] ) ) {
-            $excludes = array_merge( $excludes, json_decode( $_COOKIE['supo_pages'], true ) );
+            //make sure anything we are using from the cookie is an int and not 0
+            $cookie_ids = array_filter( array_map( 'intval', json_decode( $_COOKIE['supo_pages'], true ) ) );
+            $excludes = array_merge( $excludes, $cookie_ids );
         }
         $post_id_list = implode( ', ', $excludes );
         $results = $wpdb->get_results( 
@@ -127,7 +127,7 @@ class SuggestedPosts {
             $post_link = "<a href='$href'>$suggested_post->post_title</a>";
             $content = "<div><p>Suggested Post</p>$post_link</div>";
         } else {
-            $content = "no suggested post";    
+            $content = "<div>You've read all the suggested posts!</div>";
         }
         return $content;
     }
